@@ -79,6 +79,6 @@ Example:
 
 ## GitHub Pages
 
-[`.nojekyll`](.nojekyll) is there so a branch-based Pages source would not run Jekyll. [`.github/workflows/enable-pages.yml`](.github/workflows/enable-pages.yml) publishes the `main` branch root with the official Pages deploy actions on every push to `main`. The scheduled sports refresh deploys again when `data/sports.json` changes, because a bot push does not start that workflow on its own.
+[`.nojekyll`](.nojekyll) keeps a branch-based Pages source from running Jekyll. [`.github/workflows/enable-pages.yml`](.github/workflows/enable-pages.yml) publishes the `main` branch root with the official Pages deploy actions once Pages exists. Creating the Pages site needs an administrator: the automation token returns `Resource not accessible by integration` on that API. Turn it on once under **Settings → Pages**, either **GitHub Actions** or **Deploy from a branch** with branch `main` and folder `/` (root). After that, pushes to `main` publish the site. The scheduled sports refresh deploys again when `data/sports.json` changes, because a bot push does not start the push workflow on its own.
 
 The published root is `https://nphyde2.github.io/nick-dashboards/`.

@@ -44,17 +44,19 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/configure-pages@v6
+      - id: pages
+        uses: actions/configure-pages@v6
         if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
         with:
           enablement: true
       - name: Leave git metadata out of the site artifact
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' && steps.pages.outcome == 'success'
         run: rm -rf .git
       - uses: actions/upload-pages-artifact@v5
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' && steps.pages.outcome == 'success'
         with:
           path: .
       - id: deployment
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' && steps.pages.outcome == 'success'
         uses: actions/deploy-pages@v5
