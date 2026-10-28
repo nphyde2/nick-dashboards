@@ -79,6 +79,6 @@ Example:
 
 ## GitHub Pages
 
-[`.nojekyll`](.nojekyll) keeps Pages from running Jekyll. [`.github/workflows/enable-pages.yml`](.github/workflows/enable-pages.yml) sets the Pages source to the `main` branch at `/` on each push to `main`.
+[`.nojekyll`](.nojekyll) is there so a branch-based Pages source would not run Jekyll. [`.github/workflows/enable-pages.yml`](.github/workflows/enable-pages.yml) publishes the `main` branch root with the official Pages deploy actions on every push to `main`. The scheduled sports refresh deploys again when `data/sports.json` changes, because a bot push does not start that workflow on its own.
 
 The published root is `https://nphyde2.github.io/nick-dashboards/`.

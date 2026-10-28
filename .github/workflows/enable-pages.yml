@@ -1,4 +1,4 @@
-name: Enable GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
@@ -8,37 +8,25 @@ on:
 permissions:
   contents: read
   pages: write
-  administration: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  enable:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Serve the site from the main branch root
-        uses: actions/github-script@v7
+      - uses: actions/checkout@v7
+      - uses: actions/configure-pages@v6
+      - name: Leave git metadata out of the site artifact
+        run: rm -rf .git
+      - uses: actions/upload-pages-artifact@v5
         with:
-          script: |
-            const { owner, repo } = context.repo;
-            const source = { branch: "main", path: "/" };
-            try {
-              await github.rest.repos.getPages({ owner, repo });
-              await github.rest.repos.updateInformationAboutPagesSite({
-                owner,
-                repo,
-                build_type: "legacy",
-                source,
-              });
-              core.info("Pages source set to main /");
-            } catch (error) {
-              if (error.status === 404) {
-                await github.rest.repos.createPagesSite({
-                  owner,
-                  repo,
-                  build_type: "legacy",
-                  source,
-                });
-                core.info("Pages site created from main /");
-              } else {
-                throw error;
-              }
-            }
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v5
