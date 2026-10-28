@@ -23,6 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: actions/configure-pages@v6
+        with:
+          enablement: true
       - name: Leave git metadata out of the site artifact
         run: rm -rf .git
       - uses: actions/upload-pages-artifact@v5
