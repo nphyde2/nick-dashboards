@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports dashboard</title>
+  <meta name="description" content="LSU football in detail, plus the Chicago Bears, Bulls, Blackhawks, Cubs, White Sox, Texas A&amp;M, and Wisconsin. Live public ESPN data with a saved fallback.">
+  <meta name="theme-color" content="#090b10">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/sports.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to scores</a>
+  <header class="top">
+    <a class="brand" href="index.html">DASHBOARDS</a>
+    <nav>
+      <a href="sports.html" aria-current="page">Sports</a>
+      <a href="chicago.html">Chicago</a>
+    </nav>
+  </header>
+  <main id="content">
+    <div class="page-intro">
+      <h1>Sports</h1>
+      <p>LSU is the main board. Chicago’s five clubs sit underneath, and Texas A&amp;M and Wisconsin stay on a short card. Times are America/Chicago.</p>
+    </div>
+    <p id="status" role="status">Loading scores…</p>
+    <div id="app">
+      <noscript><p class="empty">This board needs JavaScript to request ESPN and to read the saved snapshot.</p></noscript>
+    </div>
+  </main>
+  <footer class="foot">
+    <p>Unofficial. Live numbers come from ESPN’s public site API (scoreboard, schedule, rankings, and news). The page tries <code>site.web.api.espn.com</code> and <code>site.api.espn.com</code>. If that request fails, it uses <a href="data/sports.json">data/sports.json</a>, refreshed by <code>scripts/update_sports.py</code>.</p>
+  </footer>
+  <script src="js/espn.js"></script>
+  <script src="js/sports.js"></script>
+</body>
+</html>

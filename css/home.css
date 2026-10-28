@@ -1,0 +1,44 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  min-height: 100vh;
+  font-family: Outfit, "Segoe UI", sans-serif;
+  background: #090b10;
+  color: #f6f2ea;
+}
+.split { display: grid; grid-template-columns: 1fr 1fr; min-height: 100vh; }
+.panel {
+  display: flex; flex-direction: column; justify-content: space-between;
+  padding: 1.4rem 1.6rem 1.8rem; text-decoration: none; color: inherit; min-height: 100vh;
+}
+.panel:focus-visible { outline: 3px solid #fdd023; outline-offset: -6px; }
+.sports {
+  background:
+    radial-gradient(700px 380px at 0% 0%, rgba(70, 29, 123, 0.7), transparent 60%),
+    #090b10;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+.city {
+  background:
+    linear-gradient(#e7f0f8, #e7f0f8) 0 18px / 100% 8px no-repeat,
+    #f4efe6;
+  color: #1c1915;
+}
+.kicker { letter-spacing: 0.16em; text-transform: uppercase; font-size: 0.75rem; margin: 0; }
+.sports .kicker { color: #fdd023; }
+.city .kicker { color: #9d1c2f; }
+h1 {
+  font-size: clamp(3.2rem, 7vw, 6.5rem); line-height: 0.9; margin: 0.4rem 0 0.6rem; font-weight: 500;
+}
+.sports h1 { font-family: Oswald, Impact, sans-serif; letter-spacing: 0.02em; }
+.city h1 { font-family: Fraunces, Georgia, serif; font-weight: 560; letter-spacing: -0.04em; }
+.panel p { max-width: 28rem; margin: 0; }
+.sports p { color: #c5cad6; }
+.city p { color: #5e584f; }
+.go { margin-top: 1.4rem; font-weight: 600; }
+.top-link { font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; }
+@media (max-width: 800px) {
+  .split { grid-template-columns: 1fr; }
+  .panel { min-height: 70vh; }
+}

@@ -1,0 +1,34 @@
+name: Refresh sports snapshot
+
+on:
+  schedule:
+    # Tuesday and Friday, 13:15 UTC (morning in America/Chicago).
+    - cron: "15 13 * * 2,5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch ESPN and write data/sports.json
+        run: python scripts/update_sports.py
+      - name: Commit the snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sports.json
+          if git diff --cached --quiet; then
+            echo "No snapshot changes."
+          else
+            git commit -m "chore: refresh sports snapshot"
+            git push
+          fi
