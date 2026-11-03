@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:35:58Z",
+  "generatedAt": "2026-11-03T20:06:24Z",
   "timezone": "America/Chicago",
   "source": "ESPN public site API",
   "teams": [
@@ -20,10 +20,10 @@
       "teamUrl": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers",
       "record": "6-2",
       "recordLabel": "Record",
-      "standing": "4th in SEC",
+      "standing": "5th in SEC",
       "rank": {
         "ap": 15,
-        "coaches": 13
+        "coaches": 15
       },
       "phase": "in-season",
       "seasonNote": null,
@@ -36,12 +36,12 @@
         "opponentShort": "Alabama",
         "opponentAbbrev": "ALA",
         "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-        "opponentRank": 10,
+        "opponentRank": 9,
         "homeAway": "home",
         "neutral": false,
         "venue": "Tiger Stadium (LA)",
         "city": "Baton Rouge, LA",
-        "broadcast": "ABC",
+        "broadcast": "ABC, ERADM",
         "status": "pre",
         "completed": false,
         "detail": "11/7 - 3:30 PM EST",
@@ -244,12 +244,12 @@
           "opponentShort": "Alabama",
           "opponentAbbrev": "ALA",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-          "opponentRank": 10,
+          "opponentRank": 9,
           "homeAway": "home",
           "neutral": false,
           "venue": "Tiger Stadium (LA)",
           "city": "Baton Rouge, LA",
-          "broadcast": "ABC",
+          "broadcast": "ABC, ERADM",
           "status": "pre",
           "completed": false,
           "detail": "11/7 - 3:30 PM EST",
@@ -267,12 +267,12 @@
           "opponentShort": "Texas",
           "opponentAbbrev": "TEX",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-          "opponentRank": 11,
+          "opponentRank": 10,
           "homeAway": "home",
           "neutral": false,
           "venue": "Tiger Stadium (LA)",
           "city": "Baton Rouge, LA",
-          "broadcast": null,
+          "broadcast": "ABC",
           "status": "pre",
           "completed": false,
           "detail": "TBD",
@@ -330,29 +330,29 @@
       ],
       "news": [
         {
-          "title": "LSU coach Will Wade refuses to discuss RJ Luis Jr.'s eligibility status",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50321858/lsu-coach-wade-refuses-discuss-rj-luis-jr-status",
-          "published": "2026-10-29T22:15:11.000+00:00"
+          "title": "Stephen A. has a strong message for Alabama ahead of LSU matchup",
+          "url": "https://www.espn.com/video/clip/_/id/50369394/stephen-strong-message-alabama-ahead-lsu-matchup",
+          "published": "2026-11-03T16:16:45Z"
         },
         {
-          "title": "Reese Alston, prized PG recruit and son of streetball legend, commits to LSU",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50321518/reese-alston-no-13-overall-recruit-commits-lsu",
-          "published": "2026-10-29T21:18:04.000+00:00"
+          "title": "How Will Wade and LSU became the centerpiece of the NCAA eligibility debate",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50363070/lsu-wade-line",
+          "published": "2026-11-03T12:34:33.000+00:00"
         },
         {
-          "title": "Judge OK's RJ Luis Jr. to join LSU; lawyer says Will Wade now in 'crosshairs'",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50312271/rj-luis-jr-eligible-join-lsu-judge-injunction",
-          "published": "2026-10-29T12:25:23.000+00:00"
+          "title": "LSU Tigers tip off season at home against the New Orleans Privateers",
+          "url": "https://www.espn.com/ncb/preview?gameId=401921808",
+          "published": "2026-11-03T09:44:02.000+00:00"
         },
         {
-          "title": "Kiffin says LSU back to what he envisioned after Auburn win",
-          "url": "https://www.espn.com/college-football/story/_/id/50269729/kiffin-says-lsu-back-envisioned-auburn-win",
-          "published": "2026-10-24T21:27:55.000+00:00"
+          "title": "Zakiya Johnson powers No. 9 LSU to a 129-35 win over Southeastern Louisiana",
+          "url": "https://www.espn.com/ncw/recap?gameId=401912964",
+          "published": "2026-11-03T02:48:47.000+00:00"
         },
         {
-          "title": "Sam Leavitt accounts for 4 TDs as No. 18 LSU handles Auburn 38-17 on the Plains",
-          "url": "https://www.espn.com/ncf/recap?gameId=401856728",
-          "published": "2026-10-24T20:43:02.000+00:00"
+          "title": "Lane Kiffin gives perspective on LSU vs Bama then challenges fans",
+          "url": "https://www.espn.com/video/clip/_/id/50362283/lane-kiffin-gives-perspective-lsu-vs-bama-challenges-fans",
+          "published": "2026-11-03T00:24:25Z"
         }
       ]
     },
@@ -371,30 +371,30 @@
       "alternateColor": "#E64100",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
       "teamUrl": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
-      "record": "5-2",
+      "record": "6-2",
       "recordLabel": "Record",
       "standing": "2nd in NFC North",
       "rank": null,
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401873036",
-        "date": "2026-11-03T01:15Z",
-        "name": "Chicago Bears at Seattle Seahawks",
-        "shortName": "CHI @ SEA",
-        "opponent": "Seattle Seahawks",
-        "opponentShort": "Seahawks",
-        "opponentAbbrev": "SEA",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "id": "401873050",
+        "date": "2026-11-09T01:20Z",
+        "name": "Tampa Bay Buccaneers at Chicago Bears",
+        "shortName": "TB @ CHI",
+        "opponent": "Tampa Bay Buccaneers",
+        "opponentShort": "Buccaneers",
+        "opponentAbbrev": "TB",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
         "opponentRank": null,
-        "homeAway": "away",
+        "homeAway": "home",
         "neutral": false,
-        "venue": "Lumen Field",
-        "city": "Seattle, WA",
-        "broadcast": "ESPN",
+        "venue": "Soldier Field",
+        "city": "Chicago, IL",
+        "broadcast": "NBC",
         "status": "pre",
         "completed": false,
-        "detail": "11/2 - 8:15 PM EST",
+        "detail": "11/8 - 8:20 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
@@ -577,13 +577,13 @@
           "venue": "Lumen Field",
           "city": "Seattle, WA",
           "broadcast": "ESPN",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/2 - 8:15 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "34",
+          "scoreAgainst": "17",
+          "result": "W"
         },
         {
           "id": "401873050",
@@ -653,18 +653,46 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401873100",
+          "date": "2026-12-06T18:00Z",
+          "name": "Jacksonville Jaguars at Chicago Bears",
+          "shortName": "JAX @ CHI",
+          "opponent": "Jacksonville Jaguars",
+          "opponentShort": "Jaguars",
+          "opponentAbbrev": "JAX",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "Soldier Field",
+          "city": "Chicago, IL",
+          "broadcast": "Fox",
+          "status": "pre",
+          "completed": false,
+          "detail": "12/6 - 1:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
       "news": [
         {
-          "title": "How to bet Patriots-Bears: Analysis, tips and top prop plays for the game",
-          "url": "https://www.espn.com/espn/betting/story/_/id/50229194/nfl-week-7-odds-betting-tips-picks-patriots-bears",
-          "published": "2026-10-22T10:23:46.000+00:00"
+          "title": "Stephen A.: Right now, the Bears look like the NFL's best team",
+          "url": "https://www.espn.com/video/clip/_/id/50369297/right-now-bears-look-nfl-best-team",
+          "published": "2026-11-03T15:50:13Z"
         },
         {
-          "title": "It's Drake Maye versus Caleb Williams as the New England Patriots visit the Chicago Bears",
-          "url": "https://www.espn.com/nfl/preview?gameId=401873010",
-          "published": "2026-10-21T18:37:11.000+00:00"
+          "title": "Fantasy buzz: No stopping Bears, Seahawks ease Charbonnet back, Minshew impact",
+          "url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+          "published": "2026-11-03T14:39:09Z"
+        },
+        {
+          "title": "Bears' Caleb Williams dims cleat controversy with all-black custom pair",
+          "url": "https://www.espn.com/nfl/story/_/id/50367609/chicago-bears-williams-dims-controversy-surrounding-cleats-all-black-custom-pair",
+          "published": "2026-11-03T14:06:14Z"
         }
       ]
     },
@@ -683,30 +711,30 @@
       "alternateColor": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
       "teamUrl": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
-      "record": "1-4",
+      "record": "1-6",
       "recordLabel": "Record",
       "standing": "4th in Central Division",
       "rank": null,
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401909278",
-        "date": "2026-10-30T23:30Z",
-        "name": "Chicago Bulls at Boston Celtics",
-        "shortName": "CHI @ BOS",
-        "opponent": "Boston Celtics",
-        "opponentShort": "Celtics",
-        "opponentAbbrev": "BOS",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+        "id": "401909926",
+        "date": "2026-11-05T00:30Z",
+        "name": "Chicago Bulls at New York Knicks",
+        "shortName": "CHI @ NY",
+        "opponent": "New York Knicks",
+        "opponentShort": "Knicks",
+        "opponentAbbrev": "NY",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
         "opponentRank": null,
         "homeAway": "away",
         "neutral": false,
-        "venue": "TD Garden",
-        "city": "Boston, MA",
-        "broadcast": "NBA League Pass",
+        "venue": "Madison Square Garden",
+        "city": "New York, NY",
+        "broadcast": null,
         "status": "pre",
         "completed": false,
-        "detail": "10/30 - 7:30 PM EDT",
+        "detail": "11/4 - 7:30 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
@@ -843,13 +871,13 @@
           "venue": "TD Garden",
           "city": "Boston, MA",
           "broadcast": "NBA League Pass",
-          "status": "pre",
-          "completed": false,
-          "detail": "10/30 - 7:30 PM EDT",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "111",
+          "scoreAgainst": "125",
+          "result": "L"
         },
         {
           "id": "401909912",
@@ -866,13 +894,13 @@
           "venue": "Xfinity Mobile Arena",
           "city": "Philadelphia, PA",
           "broadcast": "NBA League Pass",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/2 - 7:30 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "107",
+          "scoreAgainst": "126",
+          "result": "L"
         },
         {
           "id": "401909926",
@@ -919,23 +947,69 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401909969",
+          "date": "2026-11-12T01:00Z",
+          "name": "San Antonio Spurs at Chicago Bulls",
+          "shortName": "SA @ CHI",
+          "opponent": "San Antonio Spurs",
+          "opponentShort": "Spurs",
+          "opponentAbbrev": "SA",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": "DAZN SAS",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/11 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
+        },
+        {
+          "id": "401909299",
+          "date": "2026-11-14T01:00Z",
+          "name": "Atlanta Hawks at Chicago Bulls",
+          "shortName": "ATL @ CHI",
+          "opponent": "Atlanta Hawks",
+          "opponentShort": "Hawks",
+          "opponentAbbrev": "ATL",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": null,
+          "status": "pre",
+          "completed": false,
+          "detail": "11/13 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
       "news": [
         {
-          "title": "Celtics and Bulls meet Friday in NBA Cup group stage",
-          "url": "https://www.espn.com/nba/preview?gameId=401909278",
-          "published": "2026-10-29T06:02:54Z"
+          "title": "Chicago Bulls vs. Philadelphia 76ers: Game Highlights",
+          "url": "https://www.espn.com/video/clip/_/id/50364505/game-highlights",
+          "published": "2026-11-03T03:29:15Z"
         },
         {
-          "title": "New York Knicks vs. Chicago Bulls: Game Highlights",
-          "url": "https://www.espn.com/video/clip/_/id/50313736/game-highlights",
-          "published": "2026-10-29T02:57:27Z"
+          "title": "Maxey, James lead Philadelphia 76ers to 7-1 start with 126-107 victory over Chicago Bulls",
+          "url": "https://www.espn.com/nba/recap?gameId=401909912",
+          "published": "2026-11-03T03:11:47.000+00:00"
         },
         {
-          "title": "Jalen Brunson scores 38 points as the Knicks beat the Bulls 133-127",
-          "url": "https://www.espn.com/nba/recap?gameId=401909886",
-          "published": "2026-10-29T02:50:47Z"
+          "title": "Pritchard nets 30, Celtics ease past turnover-prone Bulls 125-111 in NBA Cup action",
+          "url": "https://www.espn.com/nba/recap?gameId=401909278",
+          "published": "2026-10-31T02:27:47.000+00:00"
         }
       ]
     },
@@ -954,82 +1028,36 @@
       "alternateColor": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png",
       "teamUrl": "https://www.espn.com/nhl/team/_/name/chi/chicago-blackhawks",
-      "record": "4-9-0",
+      "record": "4-10-1",
       "recordLabel": "Record",
       "standing": "8th in Central Division",
       "rank": null,
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401892614",
-        "date": "2026-10-31T17:00Z",
-        "name": "Chicago Blackhawks at Boston Bruins",
-        "shortName": "CHI @ BOS",
-        "opponent": "Boston Bruins",
-        "opponentShort": "Bruins",
-        "opponentAbbrev": "BOS",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+        "id": "401892645",
+        "date": "2026-11-05T00:30Z",
+        "name": "Chicago Blackhawks at Florida Panthers",
+        "shortName": "CHI @ FLA",
+        "opponent": "Florida Panthers",
+        "opponentShort": "Panthers",
+        "opponentAbbrev": "FLA",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/fla.png",
         "opponentRank": null,
         "homeAway": "away",
         "neutral": false,
-        "venue": "TD Garden",
-        "city": "Boston, MA",
-        "broadcast": "ESPN+, CHSN, NESN",
+        "venue": "Amerant Bank Arena",
+        "city": "Sunrise, FL",
+        "broadcast": "TNT, truTV",
         "status": "pre",
         "completed": false,
-        "detail": "10/31 - 1:00 PM EDT",
+        "detail": "11/4 - 7:30 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
         "result": null
       },
       "schedule": [
-        {
-          "id": "401892476",
-          "date": "2026-10-10T23:00Z",
-          "name": "Carolina Hurricanes at Chicago Blackhawks",
-          "shortName": "CAR @ CHI",
-          "opponent": "Carolina Hurricanes",
-          "opponentShort": "Hurricanes",
-          "opponentAbbrev": "CAR",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/car.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "United Center",
-          "city": "Chicago, IL",
-          "broadcast": "ESPN+, CHSN, CARNHL",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "2",
-          "scoreAgainst": "5",
-          "result": "L"
-        },
-        {
-          "id": "401892496",
-          "date": "2026-10-14T00:00Z",
-          "name": "Pittsburgh Penguins at Chicago Blackhawks",
-          "shortName": "PIT @ CHI",
-          "opponent": "Pittsburgh Penguins",
-          "opponentShort": "Penguins",
-          "opponentAbbrev": "PIT",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "United Center",
-          "city": "Chicago, IL",
-          "broadcast": "ESPN+, CHSN",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "5",
-          "scoreAgainst": "3",
-          "result": "W"
-        },
         {
           "id": "401892512",
           "date": "2026-10-16T00:00Z",
@@ -1183,13 +1211,13 @@
           "venue": "TD Garden",
           "city": "Boston, MA",
           "broadcast": "ESPN+, CHSN, NESN",
-          "status": "pre",
-          "completed": false,
-          "detail": "10/31 - 1:00 PM EDT",
+          "status": "post",
+          "completed": true,
+          "detail": "Final/OT",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "4",
+          "scoreAgainst": "5",
+          "result": "L"
         },
         {
           "id": "401892631",
@@ -1206,13 +1234,13 @@
           "venue": "United Center",
           "city": "Chicago, IL",
           "broadcast": "ESPN+, CHSN+, Altitude Sports",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/2 - 8:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "2",
+          "scoreAgainst": "5",
+          "result": "L"
         },
         {
           "id": "401892645",
@@ -1259,23 +1287,69 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401892668",
+          "date": "2026-11-08T01:00Z",
+          "name": "Chicago Blackhawks at Carolina Hurricanes",
+          "shortName": "CHI @ CAR",
+          "opponent": "Carolina Hurricanes",
+          "opponentShort": "Hurricanes",
+          "opponentAbbrev": "CAR",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/car.png",
+          "opponentRank": null,
+          "homeAway": "away",
+          "neutral": false,
+          "venue": "Lenovo Center",
+          "city": "Raleigh, NC",
+          "broadcast": "ESPN+, CHSN, CARNHL",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/7 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
+        },
+        {
+          "id": "401892702",
+          "date": "2026-11-13T01:00Z",
+          "name": "Buffalo Sabres at Chicago Blackhawks",
+          "shortName": "BUF @ CHI",
+          "opponent": "Buffalo Sabres",
+          "opponentShort": "Sabres",
+          "opponentAbbrev": "BUF",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/buf.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": "ESPN+, MSGB, CHSN",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/12 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
       "news": [
         {
-          "title": "Bruins try to extend home win streak, face the Blackhawks",
-          "url": "https://www.espn.com/nhl/preview?gameId=401892614",
-          "published": "2026-10-30T08:10:48Z"
+          "title": "Blackhawks bring losing streak into game against the Panthers",
+          "url": "https://www.espn.com/nhl/preview?gameId=401892645",
+          "published": "2026-11-03T09:11:01Z"
         },
         {
-          "title": "Arvidsson nets sixth career hat trick as Red Wings down Blackhawks, 4-1",
-          "url": "https://www.espn.com/nhl/recap?gameId=401892600",
-          "published": "2026-10-30T02:21:47Z"
+          "title": "Kadri and Schwartz lead the Avalanche past the Blackhawks 5-2 for their 3rd straight win",
+          "url": "https://www.espn.com/nhl/recap?gameId=401892631",
+          "published": "2026-11-03T04:24:48Z"
         },
         {
-          "title": "Chicago Blackhawks vs. Detroit Red Wings: Game Highlights",
-          "url": "https://www.espn.com/video/clip/_/id/50324251/game-highlights",
-          "published": "2026-10-30T02:18:19Z"
+          "title": "Colorado Avalanche vs. Chicago Blackhawks: Game Highlights",
+          "url": "https://www.espn.com/video/clip/_/id/50365008/game-highlights",
+          "published": "2026-11-03T04:14:41Z"
         }
       ]
     },
@@ -1351,6 +1425,11 @@
       ],
       "news": [
         {
+          "title": "Sources: Cubs decline $7.5M option for pitcher Colin Rea",
+          "url": "https://www.espn.com/mlb/story/_/id/50358485/sources-cubs-decline-75m-option-pitcher-colin-rea",
+          "published": "2026-11-02T15:10:30Z"
+        },
+        {
           "title": "Hern\u00e1ndez, Sanoja HRs lead Marlins past Cubs 10-3; Chicago's Crow-Armstrong hits 40th homer",
           "url": "https://www.espn.com/mlb/recap?gameId=401816830",
           "published": "2026-09-06T20:48:30.000+00:00"
@@ -1359,11 +1438,6 @@
           "title": "Pete Crow-Armstrong homers 3 times as the Chicago Cubs pound the Cincinnati Reds 17-5",
           "url": "https://www.espn.com/mlb/recap?gameId=401816726",
           "published": "2026-08-29T21:17:37.000+00:00"
-        },
-        {
-          "title": "Pete Crow-Armstrong's two homers fuel Chicago Cubs' victory",
-          "url": "https://www.espn.com/mlb/story/_/id/49645439/pete-crow-armstrong-two-homers-fuel-chicago-cubs-victory",
-          "published": "2026-08-18T06:05:07.000+00:00"
         }
       ]
     },
@@ -1587,7 +1661,7 @@
       "teamUrl": "https://www.espn.com/college-football/team/_/id/245/texas-am-aggies",
       "record": "4-4",
       "recordLabel": "Record",
-      "standing": "15th in SEC",
+      "standing": "14th in SEC",
       "rank": {
         "ap": null,
         "coaches": null
@@ -1603,7 +1677,7 @@
         "opponentShort": "South Carolina",
         "opponentAbbrev": "SC",
         "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-        "opponentRank": null,
+        "opponentRank": 23,
         "homeAway": "away",
         "neutral": false,
         "venue": "Williams-Brice Stadium",
@@ -1811,7 +1885,7 @@
           "opponentShort": "South Carolina",
           "opponentAbbrev": "SC",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-          "opponentRank": null,
+          "opponentRank": 23,
           "homeAway": "away",
           "neutral": false,
           "venue": "Williams-Brice Stadium",
@@ -1880,7 +1954,7 @@
           "opponentShort": "Texas",
           "opponentAbbrev": "TEX",
           "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-          "opponentRank": 11,
+          "opponentRank": 10,
           "homeAway": "home",
           "neutral": false,
           "venue": "Kyle Field",
@@ -1897,14 +1971,14 @@
       ],
       "news": [
         {
-          "title": "Jacksonville State Gamecocks vs. New Mexico State Aggies: Full Highlights",
-          "url": "https://www.espn.com/video/clip/_/id/50313976/full-highlights",
-          "published": "2026-10-29T03:19:59Z"
+          "title": "Lions roar, Sooners stunned: East Texas A&M upsets Oklahoma 68-64 on opening night",
+          "url": "https://www.espn.com/ncb/recap?gameId=401906801",
+          "published": "2026-11-03T18:31:47.000+00:00"
         },
         {
-          "title": "Keelon Russell throws 3 TD passes and No. 13 Alabama ends skid with 31-20 win over Texas A&M",
-          "url": "https://www.espn.com/ncf/recap?gameId=401856727",
-          "published": "2026-10-25T00:36:48.000+00:00"
+          "title": "East Texas A&M, picked last in Southland Conference, stuns Oklahoma in opener",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50365925/moser-apologizes-east-texas-upset-oklahoma",
+          "published": "2026-11-03T13:21:28.000+00:00"
         }
       ]
     },
@@ -1923,33 +1997,33 @@
       "alternateColor": "#FFFFFF",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
       "teamUrl": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers",
-      "record": "5-2",
+      "record": "5-3",
       "recordLabel": "Record",
-      "standing": "4th in Big Ten",
+      "standing": "5th in Big Ten",
       "rank": {
-        "ap": 25,
+        "ap": null,
         "coaches": null
       },
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401858502",
-        "date": "2026-10-31T16:00Z",
-        "name": "Wisconsin Badgers at Iowa Hawkeyes",
-        "shortName": "WIS @ IOWA",
-        "opponent": "Iowa Hawkeyes",
-        "opponentShort": "Iowa",
-        "opponentAbbrev": "IOWA",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "id": "401858517",
+        "date": "2026-11-07T21:15Z",
+        "name": "Rutgers Scarlet Knights at Wisconsin Badgers",
+        "shortName": "RUTG @ WIS",
+        "opponent": "Rutgers Scarlet Knights",
+        "opponentShort": "Rutgers",
+        "opponentAbbrev": "RUTG",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
         "opponentRank": null,
-        "homeAway": "away",
+        "homeAway": "home",
         "neutral": false,
-        "venue": "Kinnick Stadium",
-        "city": "Iowa City, IA",
-        "broadcast": "Fox",
+        "venue": "Camp Randall Stadium",
+        "city": "Madison, WI",
+        "broadcast": "BTN",
         "status": "pre",
         "completed": false,
-        "detail": "10/31 - 12:00 PM EDT",
+        "detail": "11/7 - 4:15 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
@@ -2132,17 +2206,17 @@
           "venue": "Kinnick Stadium",
           "city": "Iowa City, IA",
           "broadcast": "Fox",
-          "status": "pre",
-          "completed": false,
-          "detail": "10/31 - 12:00 PM EDT",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "0",
+          "scoreAgainst": "30",
+          "result": "L"
         },
         {
           "id": "401858517",
-          "date": "2026-11-07T17:30Z",
+          "date": "2026-11-07T21:15Z",
           "name": "Rutgers Scarlet Knights at Wisconsin Badgers",
           "shortName": "RUTG @ WIS",
           "opponent": "Rutgers Scarlet Knights",
@@ -2157,7 +2231,7 @@
           "broadcast": "BTN",
           "status": "pre",
           "completed": false,
-          "detail": "11/7 - 12:30 PM EST",
+          "detail": "11/7 - 4:15 PM EST",
           "timeTbd": false,
           "scoreFor": null,
           "scoreAgainst": null,
@@ -2165,7 +2239,7 @@
         },
         {
           "id": "401858520",
-          "date": "2026-11-14T05:00Z",
+          "date": "2026-11-14T17:00Z",
           "name": "Wisconsin Badgers at Maryland Terrapins",
           "shortName": "WIS @ MD",
           "opponent": "Maryland Terrapins",
@@ -2177,11 +2251,11 @@
           "neutral": false,
           "venue": "SECU Stadium",
           "city": "College Park, MD",
-          "broadcast": null,
+          "broadcast": "FS1",
           "status": "pre",
           "completed": false,
-          "detail": "TBD",
-          "timeTbd": true,
+          "detail": "11/14 - 12:00 PM EST",
+          "timeTbd": false,
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
@@ -2208,9 +2282,43 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401858544",
+          "date": "2026-11-28T00:30Z",
+          "name": "Minnesota Golden Gophers at Wisconsin Badgers",
+          "shortName": "MINN @ WIS",
+          "opponent": "Minnesota Golden Gophers",
+          "opponentShort": "Minnesota",
+          "opponentAbbrev": "MINN",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "Camp Randall Stadium",
+          "city": "Madison, WI",
+          "broadcast": "NBC",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/27 - 7:30 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
-      "news": []
+      "news": [
+        {
+          "title": "Wisconsin Badgers open season at home against the Denver Pioneers",
+          "url": "https://www.espn.com/ncb/preview?gameId=401920893",
+          "published": "2026-11-02T09:46:04.000+00:00"
+        },
+        {
+          "title": "Wisconsin Badgers begin season at home against the Bradley Braves",
+          "url": "https://www.espn.com/ncw/preview?gameId=401918864",
+          "published": "2026-11-02T09:45:36.000+00:00"
+        }
+      ]
     }
   ]
 }
