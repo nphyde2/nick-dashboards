@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:28:52Z",
+  "generatedAt": "2026-11-17T21:45:43Z",
   "timezone": "America/Chicago",
   "source": "ESPN public site API",
   "teams": [
@@ -18,33 +18,33 @@
       "alternateColor": "#FDD023",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
       "teamUrl": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers",
-      "record": "6-3",
+      "record": "6-4",
       "recordLabel": "Record",
-      "standing": "8th in SEC",
+      "standing": "11th in SEC",
       "rank": {
-        "ap": 24,
-        "coaches": 22
+        "ap": null,
+        "coaches": 23
       },
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401856885",
-        "date": "2026-11-15T00:30Z",
-        "name": "Texas Longhorns at LSU Tigers",
-        "shortName": "TEX @ LSU",
-        "opponent": "Texas Longhorns",
-        "opponentShort": "Texas",
-        "opponentAbbrev": "TEX",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-        "opponentRank": 6,
-        "homeAway": "home",
+        "id": "401856754",
+        "date": "2026-11-21T20:30Z",
+        "name": "LSU Tigers at Tennessee Volunteers",
+        "shortName": "LSU @ TENN",
+        "opponent": "Tennessee Volunteers",
+        "opponentShort": "Tennessee",
+        "opponentAbbrev": "TENN",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "opponentRank": 8,
+        "homeAway": "away",
         "neutral": false,
-        "venue": "Tiger Stadium (LA)",
-        "city": "Baton Rouge, LA",
-        "broadcast": "ABC, ERADM",
+        "venue": "Neyland Stadium",
+        "city": "Knoxville, TN",
+        "broadcast": "ABC",
         "status": "pre",
         "completed": false,
-        "detail": "11/14 - 7:30 PM EST",
+        "detail": "11/21 - 3:30 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
@@ -273,13 +273,13 @@
           "venue": "Tiger Stadium (LA)",
           "city": "Baton Rouge, LA",
           "broadcast": "ABC, ERADM",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/14 - 7:30 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "21",
+          "scoreAgainst": "22",
+          "result": "L"
         },
         {
           "id": "401856754",
@@ -295,7 +295,7 @@
           "neutral": false,
           "venue": "Neyland Stadium",
           "city": "Knoxville, TN",
-          "broadcast": null,
+          "broadcast": "ABC",
           "status": "pre",
           "completed": false,
           "detail": "11/21 - 3:30 PM EST",
@@ -330,29 +330,29 @@
       ],
       "news": [
         {
-          "title": "Why Stephen A. says the wrong team is favored in Texas-LSU",
-          "url": "https://www.espn.com/video/clip/_/id/50472624/why-stephen-says-wrong-team-favored-texas-lsu",
-          "published": "2026-11-13T16:55:17Z"
+          "title": "Dent leads No. 25 LSU against UL Monroe after 23-point game",
+          "url": "https://www.espn.com/ncb/preview?gameId=401917982",
+          "published": "2026-11-17T09:46:34.000+00:00"
         },
         {
-          "title": "Can Lane Kiffin and LSU save their playoff hopes?",
-          "url": "https://www.espn.com/college-football/story/_/id/50462068/lane-kiffin-lsu-playoff-expectations",
-          "published": "2026-11-13T15:43:27Z"
+          "title": "MiLaysia Fulwiley not with LSU for Tigers' first game after arrest",
+          "url": "https://www.espn.com/womens-college-basketball/story/_/id/50507355/milaysia-fulwiley-lsu-tigers-first-game-arrest",
+          "published": "2026-11-17T06:56:48.000+00:00"
         },
         {
-          "title": "The CFP implications of Texas-LSU",
-          "url": "https://www.espn.com/video/clip/_/id/50471089/the-cfp-implications-texas-lsu",
-          "published": "2026-11-13T14:18:55Z"
+          "title": "ZaKiyah Johnson scores 25 to lead No. 9 LSU past Troy in 116-70 blowout",
+          "url": "https://www.espn.com/ncw/recap?gameId=401912968",
+          "published": "2026-11-17T03:37:35.000+00:00"
         },
         {
-          "title": "No. 14 Gonzaga takes on LSU in Spokane, Washington",
-          "url": "https://www.espn.com/ncb/preview?gameId=401921689",
-          "published": "2026-11-13T09:46:38.000+00:00"
+          "title": "SEC will not punish LSU if it plays RJ Luis, attorneys say",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/50505162/sec-not-punish-lsu-playing-rj-luis-attorney-says",
+          "published": "2026-11-17T00:16:26.000+00:00"
         },
         {
-          "title": "Top 25 betting lines: LSU favored over Texas, and Indiana over USC",
-          "url": "https://www.espn.com/espn/betting/story/_/id/50434742/2026-college-football-week-11-top-25-betting-lines-odds",
-          "published": "2026-11-12T20:49:19Z"
+          "title": "Top 25 betting lines: UGA big faves over Gamecocks, Vols slim favorites vs. LSU",
+          "url": "https://www.espn.com/espn/betting/story/_/id/50498153/2026-college-football-week-12-top-25-betting-lines-odds",
+          "published": "2026-11-16T23:15:08Z"
         }
       ]
     },
@@ -680,11 +680,6 @@
       ],
       "news": [
         {
-          "title": "NFC North: Bears win division? Cousins has Vikes in command?",
-          "url": "https://www.espn.com/nfl/story/_/id/50462993/lions-packers-bears-vikings-nfc-north",
-          "published": "2026-11-13T15:19:15Z"
-        },
-        {
           "title": "How to bet Buccaneers-Bears: Tips, analysis and our top prop plays",
           "url": "https://www.espn.com/espn/betting/story/_/id/50408146/nfl-week-9-odds-betting-picks-buccaneers-bears-preview",
           "published": "2026-11-08T15:25:01.000+00:00"
@@ -711,105 +706,36 @@
       "alternateColor": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
       "teamUrl": "https://www.espn.com/nba/team/_/name/chi/chicago-bulls",
-      "record": "1-9",
+      "record": "3-10",
       "recordLabel": "Record",
       "standing": "4th in Central Division",
       "rank": null,
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401909299",
-        "date": "2026-11-14T01:00Z",
-        "name": "Atlanta Hawks at Chicago Bulls",
-        "shortName": "ATL @ CHI",
-        "opponent": "Atlanta Hawks",
-        "opponentShort": "Hawks",
-        "opponentAbbrev": "ATL",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+        "id": "401910011",
+        "date": "2026-11-19T00:30Z",
+        "name": "Chicago Bulls at Brooklyn Nets",
+        "shortName": "CHI @ BKN",
+        "opponent": "Brooklyn Nets",
+        "opponentShort": "Nets",
+        "opponentAbbrev": "BKN",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
         "opponentRank": null,
-        "homeAway": "home",
+        "homeAway": "away",
         "neutral": false,
-        "venue": "United Center",
-        "city": "Chicago, IL",
-        "broadcast": null,
+        "venue": "Barclays Center",
+        "city": "Brooklyn, NY",
+        "broadcast": "DAZN (YES)",
         "status": "pre",
         "completed": false,
-        "detail": "11/13 - 8:00 PM EST",
+        "detail": "11/18 - 7:30 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
         "result": null
       },
       "schedule": [
-        {
-          "id": "401909857",
-          "date": "2026-10-25T00:00Z",
-          "name": "Washington Wizards at Chicago Bulls",
-          "shortName": "WSH @ CHI",
-          "opponent": "Washington Wizards",
-          "opponentShort": "Wizards",
-          "opponentAbbrev": "WSH",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "United Center",
-          "city": "Chicago, IL",
-          "broadcast": "MNMT, NBA League Pass",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "120",
-          "scoreAgainst": "124",
-          "result": "L"
-        },
-        {
-          "id": "401909870",
-          "date": "2026-10-26T23:30Z",
-          "name": "Chicago Bulls at Boston Celtics",
-          "shortName": "CHI @ BOS",
-          "opponent": "Boston Celtics",
-          "opponentShort": "Celtics",
-          "opponentAbbrev": "BOS",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-          "opponentRank": null,
-          "homeAway": "away",
-          "neutral": false,
-          "venue": "TD Garden",
-          "city": "Boston, MA",
-          "broadcast": "NBA League Pass",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "99",
-          "scoreAgainst": "134",
-          "result": "L"
-        },
-        {
-          "id": "401909886",
-          "date": "2026-10-29T00:00Z",
-          "name": "New York Knicks at Chicago Bulls",
-          "shortName": "NY @ CHI",
-          "opponent": "New York Knicks",
-          "opponentShort": "Knicks",
-          "opponentAbbrev": "NY",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "United Center",
-          "city": "Chicago, IL",
-          "broadcast": "NBA League Pass",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "127",
-          "scoreAgainst": "133",
-          "result": "L"
-        },
         {
           "id": "401909278",
           "date": "2026-10-30T23:30Z",
@@ -940,13 +866,13 @@
           "venue": "United Center",
           "city": "Chicago, IL",
           "broadcast": null,
-          "status": "pre",
-          "completed": false,
-          "detail": "11/13 - 8:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final/OT",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "125",
+          "scoreAgainst": "117",
+          "result": "W"
         },
         {
           "id": "401909984",
@@ -963,13 +889,13 @@
           "venue": "Target Center",
           "city": "Minneapolis, MN",
           "broadcast": "DAZN MIN",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/14 - 8:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "117",
+          "scoreAgainst": "106",
+          "result": "W"
         },
         {
           "id": "401909995",
@@ -986,13 +912,13 @@
           "venue": "Rocket Arena",
           "city": "Cleveland, OH",
           "broadcast": "DAZN CLE",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/16 - 7:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "115",
+          "scoreAgainst": "126",
+          "result": "L"
         },
         {
           "id": "401910011",
@@ -1016,23 +942,92 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401909309",
+          "date": "2026-11-21T01:00Z",
+          "name": "Washington Wizards at Chicago Bulls",
+          "shortName": "WSH @ CHI",
+          "opponent": "Washington Wizards",
+          "opponentShort": "Wizards",
+          "opponentAbbrev": "WSH",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": "MNMT",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/20 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
+        },
+        {
+          "id": "401910032",
+          "date": "2026-11-23T00:00Z",
+          "name": "Denver Nuggets at Chicago Bulls",
+          "shortName": "DEN @ CHI",
+          "opponent": "Denver Nuggets",
+          "opponentShort": "Nuggets",
+          "opponentAbbrev": "DEN",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": null,
+          "status": "pre",
+          "completed": false,
+          "detail": "11/22 - 7:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
+        },
+        {
+          "id": "401910041",
+          "date": "2026-11-24T01:00Z",
+          "name": "Cleveland Cavaliers at Chicago Bulls",
+          "shortName": "CLE @ CHI",
+          "opponent": "Cleveland Cavaliers",
+          "opponentShort": "Cavaliers",
+          "opponentAbbrev": "CLE",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+          "opponentRank": null,
+          "homeAway": "home",
+          "neutral": false,
+          "venue": "United Center",
+          "city": "Chicago, IL",
+          "broadcast": "DAZN CLE",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/23 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
       "news": [
         {
-          "title": "Bulls' Caleb Wilson has successful surgery on fractured right hand",
-          "url": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
-          "published": "2026-11-13T03:07:38Z"
+          "title": "Mitchell and Allen power the Cavaliers to a 126-115 win over the Bulls",
+          "url": "https://www.espn.com/nba/recap?gameId=401909995",
+          "published": "2026-11-17T02:50:35Z"
         },
         {
-          "title": "Bulls and Hawks meet Friday in NBA Cup group stage",
-          "url": "https://www.espn.com/nba/preview?gameId=401909299",
-          "published": "2026-11-12T07:04:34Z"
+          "title": "Chicago Bulls vs. Cleveland Cavaliers: Game Highlights",
+          "url": "https://www.espn.com/video/clip/_/id/50507209/game-highlights",
+          "published": "2026-11-17T02:45:58Z"
         },
         {
-          "title": "Wembanyama, Harper lead Spurs to 10th straight win, 124-119 over Bulls",
-          "url": "https://www.espn.com/nba/recap?gameId=401909969",
-          "published": "2026-11-12T03:36:35.000+00:00"
+          "title": "Bulls' Buzelis, Nets' Minott fined $25K each after making obscene gestures",
+          "url": "https://www.espn.com/nba/story/_/id/50502886/bulls-buzelis-nets-minott-fined-25k-obscene-gestures",
+          "published": "2026-11-16T17:58:31Z"
         }
       ]
     },
@@ -1051,59 +1046,36 @@
       "alternateColor": "#000000",
       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png",
       "teamUrl": "https://www.espn.com/nhl/team/_/name/chi/chicago-blackhawks",
-      "record": "5-13-1",
+      "record": "5-13-2",
       "recordLabel": "Record",
       "standing": "8th in Central Division",
       "rank": null,
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401892708",
-        "date": "2026-11-14T20:30Z",
-        "name": "Winnipeg Jets at Chicago Blackhawks",
-        "shortName": "WPG @ CHI",
-        "opponent": "Winnipeg Jets",
-        "opponentShort": "Jets",
-        "opponentAbbrev": "WPG",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png",
+        "id": "401892733",
+        "date": "2026-11-18T00:30Z",
+        "name": "Toronto Maple Leafs at Chicago Blackhawks",
+        "shortName": "TOR @ CHI",
+        "opponent": "Toronto Maple Leafs",
+        "opponentShort": "Maple Leafs",
+        "opponentAbbrev": "TOR",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/tor.png",
         "opponentRank": null,
         "homeAway": "home",
         "neutral": false,
         "venue": "United Center",
         "city": "Chicago, IL",
-        "broadcast": "ESPN+, CHSN",
+        "broadcast": "TNT",
         "status": "pre",
         "completed": false,
-        "detail": "11/14 - 3:30 PM EST",
+        "detail": "11/17 - 7:30 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
         "result": null
       },
       "schedule": [
-        {
-          "id": "401892587",
-          "date": "2026-10-28T00:00Z",
-          "name": "Los Angeles Kings at Chicago Blackhawks",
-          "shortName": "LA @ CHI",
-          "opponent": "Los Angeles Kings",
-          "opponentShort": "Kings",
-          "opponentAbbrev": "LA",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/la.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "United Center",
-          "city": "Chicago, IL",
-          "broadcast": "ESPN+, CHSN, ABTV",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "2",
-          "scoreAgainst": "1",
-          "result": "W"
-        },
         {
           "id": "401892600",
           "date": "2026-10-29T23:30Z",
@@ -1280,13 +1252,13 @@
           "venue": "United Center",
           "city": "Chicago, IL",
           "broadcast": "ESPN+, CHSN",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/14 - 3:30 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final/SO",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "4",
+          "scoreAgainst": "5",
+          "result": "L"
         },
         {
           "id": "401892733",
@@ -1356,23 +1328,46 @@
           "scoreFor": null,
           "scoreAgainst": null,
           "result": null
+        },
+        {
+          "id": "401892772",
+          "date": "2026-11-23T01:00Z",
+          "name": "Chicago Blackhawks at Vancouver Canucks",
+          "shortName": "CHI @ VAN",
+          "opponent": "Vancouver Canucks",
+          "opponentShort": "Canucks",
+          "opponentAbbrev": "VAN",
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/nhl/500/van.png",
+          "opponentRank": null,
+          "homeAway": "away",
+          "neutral": false,
+          "venue": "Rogers Arena",
+          "city": "Vancouver, BC",
+          "broadcast": "ESPN+, CHSN",
+          "status": "pre",
+          "completed": false,
+          "detail": "11/22 - 8:00 PM EST",
+          "timeTbd": false,
+          "scoreFor": null,
+          "scoreAgainst": null,
+          "result": null
         }
       ],
       "news": [
         {
+          "title": "Maple Leafs come into matchup against the Blackhawks on losing streak",
+          "url": "https://www.espn.com/nhl/preview?gameId=401892733",
+          "published": "2026-11-16T09:11:45Z"
+        },
+        {
+          "title": "Scheifele and Connor score in shootout and Jets erase 4-goal deficit for 5-4 win over Blackhawks",
+          "url": "https://www.espn.com/nhl/recap?gameId=401892708",
+          "published": "2026-11-14T23:56:35.000+00:00"
+        },
+        {
           "title": "Blackhawks beat the Sabres 3-2 in overtime to end 6-game losing streak",
           "url": "https://www.espn.com/nhl/recap?gameId=401892702",
-          "published": "2026-11-13T04:00:35Z"
-        },
-        {
-          "title": "Buffalo Sabres vs. Chicago Blackhawks: Game Highlights",
-          "url": "https://www.espn.com/video/clip/_/id/50468242/game-highlights",
-          "published": "2026-11-13T03:57:33Z"
-        },
-        {
-          "title": "Blackhawks play the Sabres on losing streak",
-          "url": "https://www.espn.com/nhl/preview?gameId=401892702",
-          "published": "2026-11-12T09:11:36.000+00:00"
+          "published": "2026-11-13T04:00:35.000+00:00"
         }
       ]
     },
@@ -1672,19 +1667,14 @@
       ],
       "news": [
         {
+          "title": "White Sox, pitcher Dustin May reach 3-year, $52.5M contract",
+          "url": "https://www.espn.com/mlb/story/_/id/50511537/source-white-sox-dustin-reach-3-year-525m-contract",
+          "published": "2026-11-17T21:42:30Z"
+        },
+        {
           "title": "Brewers' Murphy 3-peats as top NL manager; White Sox's Venable wins AL honors",
           "url": "https://www.espn.com/mlb/story/_/id/50447635/brewers-pat-murphy-white-sox-venable-win-top-manager-awards",
           "published": "2026-11-11T02:59:57Z"
-        },
-        {
-          "title": "Royals snap a 5-game skid with a 5-4 win over White Sox, delaying Chicago's bid for a playoff berth",
-          "url": "https://www.espn.com/mlb/recap?gameId=401817052",
-          "published": "2026-09-24T03:19:28.000+00:00"
-        },
-        {
-          "title": "Ryan Jeffers hits a three-run home run to help Minnesota Twins to a 6-4 win over Chicago White Sox",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816820",
-          "published": "2026-09-06T02:07:34.000+00:00"
         }
       ]
     },
@@ -1703,9 +1693,9 @@
       "alternateColor": "#FFFFFF",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
       "teamUrl": "https://www.espn.com/college-football/team/_/id/245/texas-am-aggies",
-      "record": "4-5",
+      "record": "4-6",
       "recordLabel": "Record",
-      "standing": "14th in SEC",
+      "standing": "15th in SEC",
       "rank": {
         "ap": null,
         "coaches": null
@@ -1713,52 +1703,29 @@
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401856888",
-        "date": "2026-11-14T20:00Z",
-        "name": "Tennessee Volunteers at Texas A&M Aggies",
-        "shortName": "TENN @ TA&M",
-        "opponent": "Tennessee Volunteers",
-        "opponentShort": "Tennessee",
-        "opponentAbbrev": "TENN",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-        "opponentRank": 8,
-        "homeAway": "home",
+        "id": "401856752",
+        "date": "2026-11-21T20:45Z",
+        "name": "Texas A&M Aggies at Oklahoma Sooners",
+        "shortName": "TA&M @ OU",
+        "opponent": "Oklahoma Sooners",
+        "opponentShort": "Oklahoma",
+        "opponentAbbrev": "OU",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+        "opponentRank": null,
+        "homeAway": "away",
         "neutral": false,
-        "venue": "Kyle Field",
-        "city": "College Station, TX",
-        "broadcast": "ESPN",
+        "venue": "Memorial Stadium (Norman, OK)",
+        "city": "Norman, OK",
+        "broadcast": "ESPN2",
         "status": "pre",
         "completed": false,
-        "detail": "11/14 - 3:00 PM EST",
+        "detail": "11/21 - 3:45 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
         "result": null
       },
       "schedule": [
-        {
-          "id": "401856683",
-          "date": "2026-09-12T16:00Z",
-          "name": "Arizona State Sun Devils at Texas A&M Aggies",
-          "shortName": "ASU @ TA&M",
-          "opponent": "Arizona State Sun Devils",
-          "opponentShort": "Arizona St",
-          "opponentAbbrev": "ASU",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "Kyle Field",
-          "city": "College Station, TX",
-          "broadcast": "ABC, ERADM",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "48",
-          "scoreAgainst": "20",
-          "result": "W"
-        },
         {
           "id": "401856694",
           "date": "2026-09-19T19:40Z",
@@ -1935,17 +1902,17 @@
           "venue": "Kyle Field",
           "city": "College Station, TX",
           "broadcast": "ESPN",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/14 - 3:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "7",
+          "scoreAgainst": "22",
+          "result": "L"
         },
         {
           "id": "401856752",
-          "date": "2026-11-21T17:00Z",
+          "date": "2026-11-21T20:45Z",
           "name": "Texas A&M Aggies at Oklahoma Sooners",
           "shortName": "TA&M @ OU",
           "opponent": "Oklahoma Sooners",
@@ -1957,10 +1924,10 @@
           "neutral": false,
           "venue": "Memorial Stadium (Norman, OK)",
           "city": "Norman, OK",
-          "broadcast": null,
+          "broadcast": "ESPN2",
           "status": "pre",
           "completed": false,
-          "detail": "11/21 - 12:00 PM EST",
+          "detail": "11/21 - 3:45 PM EST",
           "timeTbd": false,
           "scoreFor": null,
           "scoreAgainst": null,
@@ -1992,14 +1959,14 @@
       ],
       "news": [
         {
-          "title": "Rancik leads Florida State against Texas A&M-CC after 23-point game",
-          "url": "https://www.espn.com/ncb/preview?gameId=401909696",
-          "published": "2026-11-13T09:44:11.000+00:00"
+          "title": "Texas A&M-CC visits Rice following Thompson's 32-point performance",
+          "url": "https://www.espn.com/ncb/preview?gameId=401921097",
+          "published": "2026-11-17T09:48:34.000+00:00"
         },
         {
-          "title": "Haggerty scores 22, Irving has double-double in Texas A&M's 88-69 win over Oklahoma State",
-          "url": "https://www.espn.com/ncb/recap?gameId=401919041",
-          "published": "2026-11-13T03:38:35.000+00:00"
+          "title": "Daniel Freitag scores 23 to help Oregon State defeat East Texas A&M 109-71",
+          "url": "https://www.espn.com/ncb/recap?gameId=401929192",
+          "published": "2026-11-17T05:15:36.000+00:00"
         }
       ]
     },
@@ -2018,9 +1985,9 @@
       "alternateColor": "#FFFFFF",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
       "teamUrl": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers",
-      "record": "6-3",
+      "record": "6-4",
       "recordLabel": "Record",
-      "standing": "3rd in Big Ten",
+      "standing": "6th in Big Ten",
       "rank": {
         "ap": null,
         "coaches": null
@@ -2028,52 +1995,29 @@
       "phase": "in-season",
       "seasonNote": null,
       "nextGame": {
-        "id": "401858520",
-        "date": "2026-11-14T17:00Z",
-        "name": "Wisconsin Badgers at Maryland Terrapins",
-        "shortName": "WIS @ MD",
-        "opponent": "Maryland Terrapins",
-        "opponentShort": "Maryland",
-        "opponentAbbrev": "MD",
-        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+        "id": "401858533",
+        "date": "2026-11-21T17:00Z",
+        "name": "Wisconsin Badgers at Purdue Boilermakers",
+        "shortName": "WIS @ PUR",
+        "opponent": "Purdue Boilermakers",
+        "opponentShort": "Purdue",
+        "opponentAbbrev": "PUR",
+        "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
         "opponentRank": null,
         "homeAway": "away",
         "neutral": false,
-        "venue": "SECU Stadium",
-        "city": "College Park, MD",
-        "broadcast": "FS1",
+        "venue": "Ross-Ade Stadium",
+        "city": "West Lafayette, IN",
+        "broadcast": "NBC",
         "status": "pre",
         "completed": false,
-        "detail": "11/14 - 12:00 PM EST",
+        "detail": "11/21 - 12:00 PM EST",
         "timeTbd": false,
         "scoreFor": null,
         "scoreAgainst": null,
         "result": null
       },
       "schedule": [
-        {
-          "id": "401858447",
-          "date": "2026-09-12T23:15Z",
-          "name": "Western Illinois Leathernecks at Wisconsin Badgers",
-          "shortName": "WIU @ WIS",
-          "opponent": "Western Illinois Leathernecks",
-          "opponentShort": "W Illinois",
-          "opponentAbbrev": "WIU",
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
-          "opponentRank": null,
-          "homeAway": "home",
-          "neutral": false,
-          "venue": "Camp Randall Stadium",
-          "city": "Madison, WI",
-          "broadcast": "BTN",
-          "status": "post",
-          "completed": true,
-          "detail": "Final",
-          "timeTbd": false,
-          "scoreFor": "36",
-          "scoreAgainst": "9",
-          "result": "W"
-        },
         {
           "id": "401858460",
           "date": "2026-09-19T16:30Z",
@@ -2250,13 +2194,13 @@
           "venue": "SECU Stadium",
           "city": "College Park, MD",
           "broadcast": "FS1",
-          "status": "pre",
-          "completed": false,
-          "detail": "11/14 - 12:00 PM EST",
+          "status": "post",
+          "completed": true,
+          "detail": "Final",
           "timeTbd": false,
-          "scoreFor": null,
-          "scoreAgainst": null,
-          "result": null
+          "scoreFor": "21",
+          "scoreAgainst": "24",
+          "result": "L"
         },
         {
           "id": "401858533",
@@ -2307,14 +2251,14 @@
       ],
       "news": [
         {
+          "title": "Wisconsin faces Coastal Carolina, seeks 4th straight victory",
+          "url": "https://www.espn.com/ncb/preview?gameId=401920896",
+          "published": "2026-11-15T09:45:46.000+00:00"
+        },
+        {
           "title": "Wisconsin Badgers welcome the Fairfield Stags on Tuesday",
           "url": "https://www.espn.com/ncb/preview?gameId=401920895",
           "published": "2026-11-10T09:44:01.000+00:00"
-        },
-        {
-          "title": "Bailey leads Delaware against Wisconsin after 22-point performance",
-          "url": "https://www.espn.com/ncb/preview?gameId=401920894",
-          "published": "2026-11-06T09:43:44.000+00:00"
         }
       ]
     }
